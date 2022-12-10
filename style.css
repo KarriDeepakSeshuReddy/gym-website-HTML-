@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+
+/* ----------------------------header css starts here-------------------------------------- */
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(Images/logo.png);
+    /* margin: 3px 4px; */
+
+    /* margin-top: 0px;  */
+    position: relative;
+    background-position: center;
+    /* background-position-x: right; */
+    background-size: cover;
+    /* padding-top: 2px; */
+
+}
+.head{
+    float: right;
+    /* margin-top: 20px; */
+    /* margin-right: 30px; */
+}
+/* 
+.navmenu a img src {
+    width: 100px;
+    height: 10px;
+
+} */
+
+/* header {
+    background-color:rgb(8, 243, 243) 
+
+
+}  */
+
+.navmenu ul {
+    overflow: auto;
+}
+
+.navmenu li {
+    float: left;
+    list-style: none;
+    /* margin decides height of my header */
+    margin: 10px 20px;
+    font-size: large;
+
+
+}
+
+.navmenu li a {
+    text-decoration: none;
+    padding: 0px;
+    color: rgb(223, 219, 219);
+    font-weight: bold;
+
+
+
+
+}
+
+.navmenu li a:hover {
+
+    color: rgb(12, 10, 10);
+    background-color: rgb(243, 116, 116);
+
+}
+
+
+.searchcourse {
+    float: right;
+    padding: 1px 34px;
+
+}
+
+/* .navmenu h3{
+    color: rgb(255, 91, 91);
+    float: right;
+    font-size: 40px;
+    padding-right: 100px;
+} */
+
+.navmenu input {
+    border-top: 3px solid rgb(231, 198, 198);
+    border-bottom: 2px solid rgb(138, 73, 85);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 10px;
+    padding: 3px 17px;
+    width: 150px;
+    height: 19px;
+
+
+
+
+}
+
+/* ---------------------------courses css starts here-------------------------------------- */
+
+
+.courses {
+
+    margin: auto;
+    /* width: 80%; */
+    text-align: center;
+    padding-top: 100px;
+
+
+}
+
+.coursecontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    text-align: center;
+
+
+}
+
+.course-col {
+    /* -- flex basis means gap between boxex-- */
+    flex-basis: 30%;
+    background-color: #d68484;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    transition: 0.005s;
+
+}
+
+.course-col:hover {
+    box-shadow: 0px 0px 20px 0px #e15858;
+
+}
+
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+    font-size: medium;
+
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/*-------------------- form entry css starts here ----------------------------*/
+
+.form {
+    border: 2px solid rgb(198, 197, 197);
+    margin: 50px 80px;
+
+    width: 33%;
+    border-radius: 28px;
+    float: right;
+}
+
+.form-group input {
+    /* font-family: 'Baloo Bhai', cursive; */
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border-top: 2px solid black;
+    border-bottom: 3px solid rgb(213, 118, 166);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 10px;
+    margin: 11px auto;
+    font-size: 20px;
+    border-top: 8px;
+
+}
+
+.form-selffilled {
+    /* font-family: 'Baloo Bhai', cursive; */
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border-top: 2px solid black;
+    border-bottom: 3px solid rgb(213, 118, 166);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 10px;
+    margin: 11px auto;
+    font-size: 20px;
+    border-top: 8px;
+    background: white;
+
+
+}
+
+.form h1 {
+    text-align: center;
+    color: rgb(255, 241, 241);
+  font-size: 60px;
+    
+}
+
+span {
+    color: rgb(18, 208, 211);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form button {
+    display: block;
+    width: 30%;
+    height: 30px;
+    margin: 3px auto;
+    background-color: rgb(168, 69, 69);
+    color: white;
+    transition: 0.05s;
+
+}
+
+.form button:hover {
+    box-shadow: 0px 0px 15px 0px rgb(203, 126, 126);
+}
+
+/* --------------------Rating----------------------------------- */
+.rating {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+
+
+
+
+}
+
+
+.rating-col {
+    flex-basis: 48%;
+    margin-bottom: 5%;
+    text-align: left;
+    /* background-color: aqua; */
+    background: #d09191;
+    padding: 25px;
+    cursor: pointer;
+    display: inline-block;
+    width: 40%;
+    /* margin-left: 519px;  */
+    /* justify-content: space-between;  */
+    border-radius: 10px;
+    clear: none;
+}
+
+.rating-col:hover {
+    box-shadow: 0px 0px 15px 0px rgb(203, 126, 126);
+}
+
+.rating-col img {
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.rating-col p {
+    padding: 0;
+}
+
+.rating-col h3 {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.row {
+    margin: 5%;
+}
+
+.star {
+    color: yellow;
+}
+
+
+/* --------------------------------footer-------------------------------------------- */
+.footer {
+    text-align: center;
+    padding: 30px 0px;
+
+}
+
+.footer h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    ;
+}
+
+.icons {
+    text-decoration: none;
+
+
+}
+
+/* -------------ABout us page css starts here-------------------------------- */
+.sub-header {
+    height: fit-content;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+/* body{
+    background-color: black;
+} */
+
+.sub-header h1 {
+    padding-top: 130px;
+}
+
+.navmenu img {
+
+    text-align: left;
+}
+
+.sub-footer {
+    text-align: center;
+    padding: 30px 0px;
+    color: azure;
+    padding-top: 0px;
+}
+
+.sub-footer h3 {
+
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    /* margin: 12px 10px;  */
+    border: 1px solid wheat;
+
+    /* padding:12px; */
+    padding-bottom: 10px;
+}
+
+#logo {
+    float: left;
+
+}
+
+.header_class {
+    background: #d09191;
+    background-size: inherit;
+    padding-bottom: 30px;
+}
+
+/* -------------------------------Gallery------------------------- */
+
+.firstpara {
+    text-align: center;
+
+}
+
+.firstpara img {
+    height: 400px;
+    margin-left: 5px;
+    margin-right: 30px;
+
+    width: 50%;
+}
+
+.iconss {
+    text-align: center;
+    align-items: center;
+}
+.header_class {
+    background: #d09191;
+    background-size: inherit;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 16px;
+}
+
+/* ---------------login------------- */
+
+
+.loginpic {
+    display: inline-block;
+    width: 30%;
+    /* padding-left: 1000px; */
+    padding-top: 50px;
+
+}
+
+/* ------------Nutrition--------------------- */
+
+.firstpara h1{
+    color: red;
+}
+
+.firstpara p{
+    color: white;
+}
